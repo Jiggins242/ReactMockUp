@@ -24,8 +24,14 @@
   /* justify-content:center; */
 }
 
-.DateOfBirth {
+.DateOfBirth-Text{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: baseline;
+}
+
+.DateOfBirth-Dropdown {
   display: flex;
   flex-direction: row;
-  padding: 20px;
 }
