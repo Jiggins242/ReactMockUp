@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import logo from "../Images/EMISGroupLogo_icon.png";
 import "../css/App.css";
-import { Button, TextInput, Dropdown } from "@emisgroup/ui-kit-react";
-import "@emisgroup/ui-kit/build/dist/css/ui-kit.min.css";
+import Banner from '../Componets/Banner/banner'
+import { Button, Dropdown } from "@emisgroup/ui-kit-react";
 
 import daysInAMonth from "../Componets/DropdownBoxes/daysInAMonth";
 import monthsOfTheYear from "../Componets/DropdownBoxes/monthsOfTheYear";
@@ -12,10 +11,7 @@ class Landing extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>emis health registertration mockup</h2>
-        </header>
+        <Banner />
         <div className="App-Body">
           <h2 className="App-Title">
             Thank you for registering your email address with Emis.

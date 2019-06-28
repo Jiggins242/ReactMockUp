@@ -1,16 +1,12 @@
 import React, { Component } from "react";
-import logo from "../Images/EMISGroupLogo_icon.png";
+import Banner from "../Componets/Banner/banner";
 import { Button } from "@emisgroup/ui-kit-react";
-import "@emisgroup/ui-kit/build/dist/css/ui-kit.min.css";
 
 class Confirmed extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Emis health registertration mockup</h2>
-        </header>
+        <Banner />
         <div className="App-Body">
           {/* <h1>Confirmed</h1> */}
           {/* There is no Green tick in ui-kit */}
