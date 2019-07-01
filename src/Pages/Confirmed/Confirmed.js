@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import Banner from "../Componets/Banner/banner";
+import Banner from '../../Components/Banner/banner';
 import { Button } from "@emisgroup/ui-kit-react";
 
 class Confirmed extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="Confirmed">
         <Banner />
-        <div className="App-Body">
+        <div className="ConfirmMainText-Body">
           {/* <h1>Confirmed</h1> */}
           {/* There is no Green tick in ui-kit */}
-          <h3>Thank you for verifying your email address.</h3>
-          <p>Have you signed up for Patient Access yet?</p>
+          <p>Thank you for verifying your email address.</p>
+          {/* <p>Have you signed up for Patient Access yet?</p> */}
           <a href="">
             <Button className="btn" type="button" color="primary">
               Register for Patient Access

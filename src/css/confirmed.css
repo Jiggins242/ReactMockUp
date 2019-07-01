@@ -1,0 +1,8 @@
+.ConfirmMainText-Body {
+    padding: 20px;
+    min-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:center; */
+  }

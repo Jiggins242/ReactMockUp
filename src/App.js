@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import "./css/App.css";
-import Confirmed from "./Pages/Confirmed";
-import Landing from "./Pages/Landing";
-import "@emisgroup/ui-kit/build/dist/css/ui-kit.min.css";
+import Confirmed from "./Pages/Confirmed/Confirmed";
+import Landing from "./Pages/Landing/Landing";
 
 export class App extends Component {
   render() {

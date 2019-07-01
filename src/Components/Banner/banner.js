@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import logo from "../../Images/EMISGroupLogo_icon.png";
-import "./banner.css";
+// import logo from "../../Images/EMISGroupLogo_icon.png";
+import "../../css/banner.css";
 
 class Banner extends Component {
   render() {
     return (
       <div className="Banner">
         <header>
-          <img src={logo} className="Banner-logo" alt="logo" />
+          {/* <img src={logo} className="Banner-logo" alt="logo" /> */}
           <p className="Banner-Text">emis health mockup</p>
         </header>
       </div>
