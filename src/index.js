@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import './css/index.css'// Styling carries over - is font family
 import './css/confirmed.css';
+import "@emisgroup/ui-kit/build/dist/css/ui-kit.min.css";
 import * as serviceWorker from "./serviceWorker";
 
 import { BrowserRouter } from "react-router-dom";
