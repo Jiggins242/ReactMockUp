@@ -81,6 +81,7 @@ class Landing extends Component {
             </a>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

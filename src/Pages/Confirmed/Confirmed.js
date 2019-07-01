@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Banner from '../../Components/Banner/banner';
+import Footer from '../../Components/Footer/footer'
 import { Button } from "@emisgroup/ui-kit-react";
 
 class Confirmed extends Component {
@@ -18,6 +19,7 @@ class Confirmed extends Component {
             </Button>
           </a>
         </div>
+        <Footer />
       </div>
     );
   }
