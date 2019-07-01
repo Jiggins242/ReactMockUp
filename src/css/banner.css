@@ -1,0 +1,19 @@
+.Banner {
+  overflow: hidden;
+  background-color: #006EB6;
+  /* background-color: #48B8E7; */
+  padding: 10px 40px;
+
+}
+.Banner-logo {
+  height: 7.5vmin;
+  float: left;
+}
+
+.Banner-Text {
+  float: right;
+  padding: 10px;
+  font-size: 25px;
+  line-height: 25px;
+  color: white;
+}

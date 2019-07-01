@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import "./css/App.css";
-import Confirmed from "./Pages/Confirmed";
-import Landing from "./Pages/Landing";
+import Confirmed from "./Pages/Confirmed/Confirmed";
+import Landing from "./Pages/Landing/Landing";
 
 export class App extends Component {
   render() {
