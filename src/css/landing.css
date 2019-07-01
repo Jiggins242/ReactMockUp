@@ -34,8 +34,15 @@
   width: 100px;
 }
 
-.Warning-Message {
+.Warning-Box {
   background-color: #feeed4;
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Warning-Message {
   color: rgb(223, 0, 0);
 }
 

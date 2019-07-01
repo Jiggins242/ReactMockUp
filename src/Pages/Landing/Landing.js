@@ -35,7 +35,7 @@ class Landing extends Component {
                   mandatory={false}
                   name="dropdown"
                   optional={false}
-                  valid={false}
+                  valid={true}
                   errorText="Field is required"
                   valueExpr="optionValue"
                 />
@@ -49,7 +49,7 @@ class Landing extends Component {
                   mandatory={false}
                   name="dropdown"
                   optional={false}
-                  valid={false}
+                  valid={true}
                   errorText="Field is required"
                   valueExpr="optionValue"
                 />
@@ -70,8 +70,10 @@ class Landing extends Component {
               </div>
             </div>
           </div>
+          <div className="Warning-Box">
           <div className="Warning-Message">
             <p>Warning these details do not match our records</p>
+          </div>
           </div>
           <div className="btn">
             <a href="Confirmed">
