@@ -1,23 +1,19 @@
 import React, { Component } from "react";
-import Banner from '../../Components/Banner/banner';
-import Footer from '../../Components/Footer/footer'
-import { Button } from "@emisgroup/ui-kit-react";
+import Banner from "../../Components/Banner/banner";
+import Footer from "../../Components/Footer/footer";
 
 class Confirmed extends Component {
   render() {
     return (
       <div className="Confirmed">
         <Banner />
-        <div className="ConfirmMainText-Body">
-          {/* <h1>Confirmed</h1> */}
+        <div className="ConfirmMainText-Body ">
           {/* There is no Green tick in ui-kit */}
-          <p>Thank you for verifying your email address.</p>
-          {/* <p>Have you signed up for Patient Access yet?</p> */}
-          <a href="">
-            <Button className="btn" type="button" color="primary">
-              Register for Patient Access
-            </Button>
-          </a>
+          <p>
+            Your email address has been <strong>successfully verified</strong>.
+            <br />
+            You can now safely close this page.
+          </p>
         </div>
         <Footer />
       </div>

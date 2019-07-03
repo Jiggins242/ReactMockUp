@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@emisgroup/ui-kit": "^0.14.5",
-    "@emisgroup/ui-kit-react": "^0.13.1",
+    "@emisgroup/ui-kit-react": "^0.13.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
